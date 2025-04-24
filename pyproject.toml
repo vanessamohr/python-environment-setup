@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "my-python-playground"
+version = "1.0.0"
+description = "This is where I learn, grow, and explore!"
+readme = "README.md"
+authors = ["Pat Programmer <pat.programmer@entelect.co.za>", "Chris Coder <chris.coder@entelect.co.za>"]
+license = "LICENSE"
+packages = [{include = "my_python_playground"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+pydantic = {extras = ["email"], version = "^2.5.1"}
+pydantic-settings = "^2.1.0"
+
+[poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = ["tests"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+run-me = "my_python_playground.main:main"
