@@ -20,10 +20,10 @@ By the end of this exercise, you should have:
   - Set up a **linter** (e.g., `flake8`, `ruff`) and a **formatter** (e.g., `black`)
   - Many Python IDE features like autocomplete and static analysis rely on **type hints**—make sure to use them in your scripts as a good habit!
 - 🧪 Created and activated a **virtual environment**
-- 📦 Installed at least one package (like `pydantic`) using a **package manager**: Consider using `pip`, `poetry`, or `tox`
+- 📦 Installed at least one package (like `pydantic`) using a **package manager**: Consider using `poetry`, `pip`, or `tox`
 - 🛠️ Created a **project configuration file**, depending on your tooling:
-  - `requirements.txt` (for `pip`)
   - `pyproject.toml` (for `poetry`, `black`, `ruff`, etc.)
+  - `requirements.txt` (for `pip` - simpler setups)
   - `tox.ini` or `pyproject.toml` (if you're exploring `tox`)
 - 🧾 Written a small Python script with the following:
   - A top-level **main module** (e.g., `__main__.py` or `main.py`)
