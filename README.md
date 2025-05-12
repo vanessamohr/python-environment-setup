@@ -29,7 +29,7 @@ By the end of this exercise, you should have:
   - A top-level **main module** (e.g., `__main__.py` or `main.py`)
   - A function that returns or prints something like `"Hello, playground!"`
   - Proper **type hints** for your function(s)
-- 🔓 Configured an entrypoint that actually runs your code—your `main()` function shouldn’t just sit there! Try calling it from a `main.py` with `if __name__ == "__main__":`, or explore defining an entrypoint using `console_scripts` in `pyproject.toml` if you're using Poetry or `setup.py` with `setuptools`. Bonus points if you make it runnable via `python -m yourproject` or a command like `yourproject` in the terminal. And no, clicking the "Run" button in VS Code does not count 😉. Think about what's going to run your code (or your container or your lambda or whatever) out there in the wild...
+- 🔓 Configured an entrypoint that actually runs your code—your `main()` function shouldn't just sit there! Try calling it from a `main.py` with `if __name__ == "__main__":`, or explore defining an entrypoint using `console_scripts` in `pyproject.toml` if you're using Poetry or `setup.py` with `setuptools`. Bonus points if you make it runnable via `python -m yourproject` or a command like `yourproject` in the terminal. And no, clicking the "Run" button in VS Code does not count 😉. Think about what's going to run your code (or your container or your lambda or whatever) out there in the wild...
 - 📸 Snapped a screenshot or written a quick note showing your setup (terminal, environment name, IDE, Python version)
 
 ## 💬 Reflect & Share
