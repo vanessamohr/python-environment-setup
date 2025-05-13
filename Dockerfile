@@ -5,7 +5,8 @@ FROM public.ecr.aws/lambda/python:3.13
 WORKDIR /var/task
 
 # Copy your app code into the container
-COPY . .
+COPY my_python_playground/ my_python_playground/
+COPY README.md ./
 
 # Copy Poetry files and install dependencies
 COPY pyproject.toml poetry.lock ./
